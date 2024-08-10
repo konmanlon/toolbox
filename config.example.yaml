@@ -1,0 +1,32 @@
+notifications:
+  mail:
+    smtp:
+    username:
+    password:
+    from:
+    to:
+    cc:
+
+  telegram:
+    botToken: ""
+    chatID: 
+    parseMode: "MarkdownV2"
+
+  wechat:
+    webhook:
+
+ddns:
+  enable: false
+  cloudflare:
+    authorize:
+      apiKey: ""
+      email: ""
+    dns:
+      domain: ""
+      recordName: "ds"
+      endpoint: ""
+      scheduledTask: 30
+
+modem:
+  enable: false
+  serialPort: ""
